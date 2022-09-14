@@ -10,4 +10,10 @@
 .fighter-thumb {
     height: 100px;
     width: 100px;
+    transition: transform 0.2s, border;
+}
+
+.fighter-thumb:hover {
+    transform: scale(1.2);
+    border: 1px solid red
 }
