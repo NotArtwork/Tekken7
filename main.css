@@ -1,16 +1,13 @@
-.fighter-container {
-    width: 100%;
+#fighters-div {
+    display: flex;
+    width: 424px;
+    flex-wrap: wrap;
+    gap: 8px;
+    border: 1px solid black;
+    
 }
 
-.fighter-grid {
-    width: 60%
-}
-
-.p {
-    z-index: 1;
-    position: absolute;
-}
-
-.card {
-    margin: 0.25rem;
+.fighter-thumb {
+    height: 100px;
+    width: 100px;
 }
