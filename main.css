@@ -1,16 +1,20 @@
+#nav {
+    background-color: red;
+}
+
 #fighters-div {
     display: flex;
     width: 424px;
     flex-wrap: wrap;
     gap: 8px;
-    border: 1px solid black;
-    
+    margin: 0 auto;
+    ;   
 }
 
 .fighter-thumb {
     height: 100px;
     width: 100px;
-    transition: transform 0.2s, border;
+    transition: transform 0.2s, border 0.2s;
 }
 
 .fighter-thumb:hover {
