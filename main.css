@@ -1,5 +1,18 @@
 #nav {
-    background-color: red;
+    background-color: #ccc;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 0;
+    top: 0;
+    height: 80px;
+}
+
+#logo {
+    width: 280px;
+    height:auto;
 }
 
 #fighters-div {
