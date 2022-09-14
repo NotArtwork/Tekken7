@@ -1,0 +1,16 @@
+.fighter-container {
+    width: 100%;
+}
+
+.fighter-grid {
+    width: 60%
+}
+
+.p {
+    z-index: 1;
+    position: absolute;
+}
+
+.card {
+    margin: 0.25rem;
+}
